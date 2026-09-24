@@ -2,7 +2,16 @@
  adalah aplikasi manajemen inventaris berbasis web yang dirancang menggunakan bahasa pemrograman PHP Native dengan arsitektur berstandar industri. Aplikasi ini menyediakan solusi CRUD (Create, Read, Update, Delete) lengkap, responsif, dan aman untuk pengelolaan stok barang, pemantauan aset, serta manipulasi data katalog secara real-time.
 
  ## fitur utama
- Dashboard & Analisis Inventaris:Pemantauan akumulasi total jenis produk dan stok barang secara keseluruhan.Visualisasi stok kritis/menipis ($\le 5$ unit) dengan indikator dinamis.Manajemen Katalog (CRUD Engine):Create: Penambahan produk baru dengan pengecekan duplikasi nama dan verifikasi tipe data.Read: Penayangan katalog dalam bentuk kartu (grid layout) yang adaptif terhadap ukuran layar.Update: Pengubahan atribut produk (nama, kategori, harga, stok) tanpa merusak integritas data.Delete: Penghapusan data aman dengan konfirmasi dialog serta otentikasi token CSRF.Pencarian Dinamis (Live Query):Modul filter real-time yang mampu menyaring data berdasarkan nama produk maupun nama kategori.Antarmuka Modern (UI/UX):Menerapkan desain responsif berbasis Flexbox & CSS Grid.Pemformatan mata uang otomatis (Rupiah) pada input harga dan tampilan informasi.
+ # Dashboard & Analisis Inventaris:
+ Pemantauan akumulasi total jenis produk dan stok barang secara keseluruhan.Visualisasi stok kritis/menipis ($\le 5$ unit) dengan indikator dinamis.
+ # Manajemen Katalog (CRUD Engine):Create:
+ Penambahan produk baru dengan pengecekan duplikasi nama dan verifikasi tipe data.Read: Penayangan katalog dalam bentuk kartu (grid layout) yang adaptif terhadap ukuran layar.
+ # Update: 
+ Pengubahan atribut produk (nama, kategori, harga, stok) tanpa merusak integritas data.Delete: Penghapusan data aman dengan konfirmasi dialog serta otentikasi token CSRF.
+ # Pencarian Dinamis (Live Query):
+ Modul filter real-time yang mampu menyaring data berdasarkan nama produk maupun nama kategori.Antarmuka Modern 
+ # (UI/UX):
+ Menerapkan desain responsif berbasis Flexbox & CSS Grid.Pemformatan mata uang otomatis (Rupiah) pada input harga dan tampilan informasi.
 
  ## Stuktur 
  
